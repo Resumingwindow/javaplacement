@@ -33,7 +33,8 @@ public class constructor{
          student.Shikha s2 = new student().new Shikha() ;
          s2.name = "ARTU";
          System.out.println(s2.name);
-        student.Shikha s3 = new s1. Shikha() ;
+        student.Shikha s3 =  s1.new Shikha() ;
+        System.out.println(s3.id);
 
     }
 }
